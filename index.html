@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/style.css">
+  <title>BMI Calculator</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="main-card">
+        <div class="upper-card">
+          <form id="bmi-form">
+            <div id="form-group">
+              <h1>BMI Calculator</h1>
+              <div class="bmi-inputs">
+                <span>Height:</span>
+                <input type="number" name="height" id="height" placeholder="Enter your hieght in CM please">
+              </div>
+            </div>
+
+            <div id="form-group">
+              <div class="bmi-inputs">
+                <span>Weight:</span>
+                <input type="number" name="weight" id="weight" placeholder="Enter your weight in kg please">
+              </div>
+            </div>
+            <input type="submit" value="Calculator" class="btn">
+          </form>
+        </div>
+        <!-- Loading card -->
+        <!-- <div class="mid-card">
+                <div id="loading">
+                   <img src="./img/loading.gif" alt=""> 
+                </div>
+        </div> -->
+        <!-- Results -->
+        <div class="lower_card">
+          <form id="results">
+            <h3>Results</h3>
+            <div class="bmi-inputs">
+              <span>Your BMI is: </span>
+              <input type="text" id="bmi-results" disabled>
+            </div>
+          </form>
+        </div>
+        <div class="bmi-categories">
+          <h5>BMI Categories</h5>
+          <p>Underweight = < 18.5</p>
+              <br>
+              <p>Healthy / Normal weight = 18.5 to 24.9</p>
+              <br>
+              <p>Overweight = 25 to 29.9</p>
+              <br>
+              <p>Obesity = BMI of 30 or greater</p>
+              <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+
+</html>

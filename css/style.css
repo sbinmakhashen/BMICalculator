@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333;
+  line-height: 1.4;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  /* margin-top: 1rem; */
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 1rem;
+  width: 100%;
+}
+
+.main-card {
+  background: #f4f4f4;
+  margin: 0 10rem;
+  padding: 2rem 0;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.upper-card {
+  width: 100%;
+}
+
+#form-group {
+  padding: 1rem;
+  width: 100%;
+}
+
+#form-group h1{
+  padding-bottom: 2rem;
+  position: relative;
+  width: 100%;
+}
+
+
+.bmi-inputs input {
+  width:80%;
+  padding: .7rem .5rem;
+  border: none;
+  border-radius: 10px;
+}
+.bmi-inputs span {
+  /* position: absolute;
+  left: -10px; */
+  background: #bebebe;
+  padding: .3rem;
+  border-radius: 4px;
+}
+
+.btn {
+  width: 40%;
+  padding: .5rem 0;
+  margin: 1rem 0;
+  cursor: pointer;
+  background: #555;
+  color: #fff;
+}
+
+.btn:hover {
+  transition: all 0.3s ease-in-out;
+  opacity: 0.8;
+}
+
+#results input {
+  width: 70%;
+  background: #fff;
+  margin: 1rem 0;
+}
+
+.bmi-categories {
+  background: rgb(199, 199, 199);
+  padding: 0.6rem;
+  font-size: 1.2rem;
+  margin: 0 3rem;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+.bmi-categories h5{
+ padding-top: 3rem 0;
+}
+
