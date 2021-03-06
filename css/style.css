@@ -71,6 +71,8 @@ body {
   cursor: pointer;
   background: #555;
   color: #fff;
+  border: none;
+  border-radius: 5px;
 }
 
 .btn:hover {
