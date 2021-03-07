@@ -99,3 +99,16 @@ body {
  padding-top: 3rem 0;
 }
 
+/* message pop up */
+.alert {
+  background: #867e7e;
+  color: red;
+  padding: .8rem 1rem;
+  margin-bottom: 1rem;
+}
+
+/* display results and loading gif to none */
+#loading,
+#results {
+  display: none;
+}

@@ -16,10 +16,10 @@
         <div class="upper-card">
           <form id="bmi-form">
             <div id="form-group">
-              <h1>BMI Calculator</h1>
+              <h1 class="card-title">BMI Calculator</h1>
               <div class="bmi-inputs">
                 <span>Height:</span>
-                <input type="text" name="height" id="height" placeholder="Enter your height in CM please">
+                <input type="number" name="height" id="height" placeholder="Enter your height in CM please">
               </div>
             </div>
 
@@ -33,31 +33,32 @@
           </form>
         </div>
         <!-- Loading card -->
-        <!-- <div class="mid-card">
-                <div id="loading">
-                   <img src="./img/loading.gif" alt=""> 
-                </div>
-        </div> -->
+        <div class="mid-card">
+          <div id="loading">
+            <img src="./img/loading.gif" alt="">
+          </div>
+        </div>
         <!-- Results -->
         <div class="lower_card">
-          <form id="results">
+          <div id="results">
             <h3>Results</h3>
             <div class="bmi-inputs">
               <span>Your BMI is: </span>
               <input type="text" id="bmi-results" disabled>
+              <!-- results -->
+              <div class="bmi-categories">
+                <h5>BMI Categories</h5>
+                <p>Underweight = < 18.5</p>
+                    <br>
+                    <p>Healthy / Normal weight = 18.5 to 24.9</p>
+                    <br>
+                    <p>Overweight = 25 to 29.9</p>
+                    <br>
+                    <p>Obesity = BMI of 30 or greater</p>
+                    <br>
+              </div>
             </div>
-          </form>
-        </div>
-        <div class="bmi-categories">
-          <h5>BMI Categories</h5>
-          <p>Underweight = < 18.5</p>
-              <br>
-              <p>Healthy / Normal weight = 18.5 to 24.9</p>
-              <br>
-              <p>Overweight = 25 to 29.9</p>
-              <br>
-              <p>Obesity = BMI of 30 or greater</p>
-              <br>
+          </div>
         </div>
       </div>
     </div>
